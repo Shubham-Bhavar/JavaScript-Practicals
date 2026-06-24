@@ -1,12 +1,14 @@
-let n=10;
-let i=1;
-let sum=0;
-while(i<=n)
-  {
-    if(n % 2 == 0)
-    {
-      sum=sum+i;
+// Program to find the sum of even numbers from 1 to N
+
+let n = 10;
+let sum = 0;
+
+for (let i = 1; i <= n; i++) {
+
+    // Check if the number is even
+    if (i % 2 === 0) {
+        sum = sum + i;
     }
-    
-  }
-console.log(sum);
+}
+
+console.log("Sum = " + sum);
