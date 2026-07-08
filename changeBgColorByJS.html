@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="changeColor()">Change Color</button>
+
+<script>
+function changeColor() {
+    document.body.style.backgroundColor = "lightblue";
+}
+</script>
+
+</body>
+</html>
