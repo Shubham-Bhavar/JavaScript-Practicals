@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- Question: Remove element when button is clicked -->
+
+<p id="removeMe">Delete Me</p>
+<button onclick="removeText()">Remove</button>
+
+<script>
+function removeText() {
+    let el = document.getElementById("removeMe"); // select element
+    el.remove(); // delete element
+}
+</script>
+
+</body>
+</html>
