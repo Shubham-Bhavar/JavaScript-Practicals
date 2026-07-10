@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- Question: Toggle text between Hello and Bye on button click -->
+
+<p id="text">Hello</p>
+<button onclick="toggleText()">Toggle</button>
+
+<script>
+let flag = true; // track state
+
+function toggleText() {
+    if (flag)
+        document.getElementById("text").innerText = "Bye"; // change text
+    else
+        document.getElementById("text").innerText = "Hello";
+
+    flag = !flag; // switch state
+}
+</script>
+
+</body>
+</html>
